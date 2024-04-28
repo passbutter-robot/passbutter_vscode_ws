@@ -4,7 +4,12 @@
 # Example:
 ############
 repositories:
-  examples:
+  passbutter_hw_ros:
     type: git
-    url: https://github.com/ros2/examples.git
-    version: iron
+    url: https://github.com/passbutter-robot/passbutter_hw_ros
+    version: main
+
+  passbutter_description:
+    type: git
+    url: https://github.com/passbutter-robot/passbutter_description.git
+    version: main
